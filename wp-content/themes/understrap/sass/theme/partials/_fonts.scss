@@ -1,0 +1,48 @@
+// Logo font face [https://fonts.google.com/specimen/Rye](https://fonts.google.com/specimen/Rye)
+
+// Title H1 [https://fonts.google.com/specimen/Holtwood+One+SC](https://fonts.google.com/specimen/Holtwood+One+SC)
+
+// Heading [https://fonts.google.com/specimen/Bungee](https://fonts.google.com/specimen/Bungee)
+
+// Subheading (bump down heading)
+
+// Body Labels (bump up body font size)
+
+// Body [https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto)
+
+.logo-font {
+    font-family: 'Rye', cursive;
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
+.title-heading {
+    font-family: 'Holtwood One SC', serif;
+}
+
+.main-heading {
+    font-family: 'Bungee', cursive;
+}
+
+
+.sub-heading {
+    font-family: 'Bungee', cursive;
+}
+
+.body-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.body-highlight {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.body-copy {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    @extend .body-copy;
+}

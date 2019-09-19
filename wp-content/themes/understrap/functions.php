@@ -9,6 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 
 $understrap_includes = array(
+	'/google-fonts.php',
 	'/theme-settings.php',                  // Initialize theme default settings.
 	'/setup.php',                           // Theme setup and custom theme supports.
 	'/widgets.php',                         // Register widget area.
