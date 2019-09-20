@@ -17,7 +17,7 @@
 
 // Adding some contrast background color to footer full widget
 #wrapper-footer-full,
-#wrapper-static-hero { background-color: $gray-200; }
+#wrapper-static-hero { background-color: $neutral-light; }
 
 // Necessary WP classes
 .wp-caption { font-size: inherit; }
@@ -110,10 +110,10 @@ a.skip-link {
 }
 
 .navbar-dark .navbar-brand a {
-    color: $navbar-dark-active-color;
+    color: $neutral-dark;
 
     @include hover-focus {
-      color: $navbar-dark-active-color;
+      color: $neutral-dark;
     }
 }
 

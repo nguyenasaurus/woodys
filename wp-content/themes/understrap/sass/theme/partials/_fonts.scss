@@ -12,8 +12,7 @@
 
 .logo-font {
     font-family: 'Rye', cursive;
-    font-size: 2rem;
-    margin: 0 0.5rem;
+    font-size: calc(1.5rem + 1vw);
 }
 
 .title-heading {
@@ -23,7 +22,6 @@
 .main-heading {
     font-family: 'Bungee', cursive;
 }
-
 
 .sub-heading {
     font-family: 'Bungee', cursive;

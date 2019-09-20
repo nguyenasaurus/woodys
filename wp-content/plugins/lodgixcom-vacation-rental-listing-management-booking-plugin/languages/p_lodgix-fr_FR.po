@@ -1,0 +1,282 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: Lodgix\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bluetelligence LLC <bluetelligence@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+
+msgid "Sort Results by"
+msgstr "Trier par"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Bedrm"
+msgstr "CAC"
+
+msgid "Bedrooms"
+msgstr "Chambres"
+
+msgid "bedroom"
+msgstr "chambre"
+
+msgid "bedrooms"
+msgstr "chambres"
+
+msgid "Bath"
+msgstr "SDB"
+
+msgid "Bathrooms"
+msgstr "Salle de bains"
+
+msgid "# of Guests"
+msgstr "# d'invités"
+
+msgid "Rental Type"
+msgstr "Type de propriété"
+
+msgid "Daily Rate"
+msgstr "Tarif"
+
+msgid "Price Per Night"
+msgstr "Prix par nuit"
+
+msgid "Daily Price From"
+msgstr "Tarif à partir de"
+
+msgid "Daily Price To"
+msgstr "Tarif jusqu'à"
+
+msgid "Weekly Rate"
+msgstr "Tarif par semaine"
+
+msgid "Price Per Week"
+msgstr "Prix par semaine"
+
+msgid "Monthly Rate"
+msgstr "Tarif par mois"
+
+msgid "Price Per Month"
+msgstr "Prix par mois"
+
+msgid "This property has"
+msgstr "Cette propriété a"
+
+msgid "Display Google Map"
+msgstr "Afficher la carte Google"
+
+msgid "Book Now"
+msgstr "Réserver"
+
+msgid "Check Availability"
+msgstr "Vérifier la disponibilité"
+
+msgid "Property Description"
+msgstr "Description de la propriété"
+
+msgid "Details"
+msgstr "Détails"
+
+msgid "Property Details"
+msgstr "Détails de la propriété"
+
+msgid "Amenities"
+msgstr "Équipements"
+
+msgid "Guest Reviews"
+msgstr "Commentaire des invités"
+
+msgid "Rates"
+msgstr "Tarifs"
+
+msgid "Rate varies due to seasonality and holidays"
+msgstr "Les tarifs varie selon les saison et les vacances"
+
+msgid ""
+"Please select your dates on our online booking calendar for an exact quote"
+msgstr ""
+"Merci de choisir vos dates sur le calendrier en ligne pour une soumission juste "
+
+
+msgid "Taxes"
+msgstr "Taxes"
+
+msgid "One Time"
+msgstr "Une fois"
+
+msgid "Daily"
+msgstr "Journalier"
+
+msgid "Policies"
+msgstr "Politiques"
+
+msgid "Fees"
+msgstr "Frais"
+
+msgid "Tax Exempt"
+msgstr "Exemption de taxes"
+
+msgid "Deposits"
+msgstr "Dépôts"
+
+msgid "Availability &amp; Booking Calendar"
+msgstr "Disponibilité & Calendrier des réservations"
+
+msgid "Booking Calendar"
+msgstr "Réservation"
+
+msgid "Cancellation Policy"
+msgstr "Politique d'annulation"
+
+msgid "Deposit Policy"
+msgstr "Politique de dépôt"
+
+msgid "Property Location"
+msgstr "Emplacement de la propriété"
+
+msgid "Location"
+msgstr "Map"
+
+msgid "Online Booking Instructions"
+msgstr "Instructions pour réserver en ligne"
+
+msgid "Reviews"
+msgstr "Commentaires"
+
+msgid "Vacation Rentals"
+msgstr "Locations de vacances"
+
+msgid "Availability"
+msgstr "Disponibilité"
+
+msgid "Search Rentals"
+msgstr "Rechercher"
+
+msgid "Pet Friendly"
+msgstr "Accepte les animaux"
+
+msgid "Search by Property Name or ID"
+msgstr "Recherche par le Nom de la propriété ou par ID"
+
+msgid "Property Name or ID"
+msgstr "Nom de la propriété ou ID"
+
+msgid "Arriving"
+msgstr "Arrivé"
+
+msgid "Nights"
+msgstr "Nuits"
+
+msgid "night"
+msgstr "nuit"
+
+msgid "nights"
+msgstr "nuits"
+
+msgid "All Areas"
+msgstr "Tous "
+
+msgid "Any Bedrooms"
+msgstr "Tous les chambres"
+
+msgid "Studio"
+msgstr "Studio"
+
+msgid "from"
+msgstr "à partir de"
+
+msgid "From"
+msgstr "À partir de"
+
+msgid "From Any Price"
+msgstr "Tous"
+
+msgid "To"
+msgstr "à"
+
+msgid "To Any Price"
+msgstr "Tous"
+
+msgid "per /nt"
+msgstr "par/nt"
+
+msgid "per nt"
+msgstr "par nt"
+
+msgid "per night"
+msgstr "par nuit"
+
+msgid "per /wk"
+msgstr "par / sem"
+
+msgid "per week"
+msgstr "par semaine"
+
+msgid "per /mo"
+msgstr "par/mo"
+
+msgid "per month"
+msgstr "par mois"
+
+msgid "Rental Search"
+msgstr "Rechercher"
+
+msgid "Lodgix Rental Search"
+msgstr "Rechercher les propriétés Lodgix "
+
+msgid "Display Results"
+msgstr "Afficher les résultats"
+
+msgid "Learn More"
+msgstr "Information"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "at"
+msgstr "a"
+
+msgid "in"
+msgstr "dans"
+
+msgid "Apartment"
+msgstr "Appartement"
+
+msgid "Condo"
+msgstr "Condo"
+
+msgid "Cottage"
+msgstr "Chalet"
+
+msgid "House"
+msgstr "Maison"
+
+msgid "Villa"
+msgstr "Villa"
+
+msgid "Dates"
+msgstr "Dates"
+
+msgid "Wkdy / Wknd"
+msgstr "jrs sem / jrs fin sem"
+
+msgid "Weekly"
+msgstr "à la Semaine"
+
+msgid "Monthly"
+msgstr "au Mois"
+
+msgid "Last updated"
+msgstr "Dernière mise à jour"
+
+msgid "Featured Rentals"
+msgstr "Propriétés en vedettes "
