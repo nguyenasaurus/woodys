@@ -31,6 +31,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 							Woody's Cottages &copy; <?php echo date("Y"); ?>
 						</p>
 
+						<?php wp_nav_menu(
+							array(
+								'theme_location' => 'footer',
+								'menu_class' => 'footer',
+								'menu_id' => 'footer-nav'
+							)
+						); ?>
+
 					</div><!-- .site-info -->
 
 				</footer><!-- #colophon -->

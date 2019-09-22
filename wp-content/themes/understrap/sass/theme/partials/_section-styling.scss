@@ -7,3 +7,12 @@
 // Heading
 // Label Heading
 // Subheading
+
+.dark {
+    background-color: $accent-blue;
+    color: $primary;
+
+    &#wrapper-footer {
+        background-color: $neutral-dark;
+    }
+}
