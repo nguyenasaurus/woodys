@@ -1,6 +1,15 @@
 .light {
     background-color: $primary;
     color: $neutral-dark;
+    
+    &#wrapper-footer {
+        background-color: $primary;
+        color: $acent-blue;
+
+        #footer-nav ul li a, a {
+            color: $accent-blue;
+        }
+    
 }
 
 // Body Text
