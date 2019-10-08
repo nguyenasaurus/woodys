@@ -18,6 +18,8 @@ $container = get_theme_mod( 'understrap_container_type' );
   <?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 
+<?php get_template_part( 'loop-templates/custom-header', 'page' ); ?>
+
 <div class="wrapper light" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">

@@ -18,6 +18,8 @@ $container = get_theme_mod( 'understrap_container_type' );
   <?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 
+<?php get_template_part( 'loop-templates/custom-header', 'page' ); ?>
+
 <div class="wrapper dark" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
@@ -27,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12 content-area" id="primary">
 
 				<main class="site-main" id="main" role="main">
-					Doot
+
 				</main><!-- #main -->
 
 			</div><!-- #primary -->
