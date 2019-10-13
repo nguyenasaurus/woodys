@@ -1,27 +1,77 @@
 .light {
     background-color: $primary;
     color: $neutral-dark;
-    
+
+    .feature-img-and-title-container .page-title {
+        background-color: $accent-blue;
+        color: $primary;
+    }
+
     &#wrapper-footer {
         background-color: $primary;
-        color: $acent-blue;
+        color: $accent-blue;
 
         #footer-nav ul li a, a {
             color: $accent-blue;
         }
     
-}
+    }
 
 // Body Text
 // Heading
 // Label Heading
 // Subheading
+}
 
 .dark {
     background-color: $accent-blue;
     color: $primary;
 
+    h1.page-title {
+        background-color: $primary;
+        color: $accent-blue;
+    }
+
+    h2, h3 {
+        color: $accent-yellow;
+        margin: 2rem 0 1rem;
+    }
+
     &#wrapper-footer {
         background-color: $neutral-dark;
+    }
+
+    .location-links li {
+        background: $primary;
+        a {
+            color: $accent-red;
+            @extend .sub-heading;
+            font-size: 18px;
+        }
+    }
+}
+
+.location-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 0;
+    li {
+        min-width: 170px;
+        max-width: 200px;
+        list-style-type: none;
+        padding: 0.5rem 0.85rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+        a {
+            align-self: center;
+        }
     }
 }

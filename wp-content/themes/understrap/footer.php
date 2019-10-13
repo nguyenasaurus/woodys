@@ -27,17 +27,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-						<p>
-							Woody's Cottages &copy; <?php echo date("Y"); ?>
-						</p>
-
-						<?php wp_nav_menu(
+					<?php wp_nav_menu(
 							array(
 								'theme_location' => 'footer',
 								'menu_class' => 'footer',
 								'menu_id' => 'footer-nav'
 							)
 						); ?>
+
+						<p>
+							Woody's Cottages &copy; <?php echo date("Y"); ?>
+						</p>
 
 					</div><!-- .site-info -->
 

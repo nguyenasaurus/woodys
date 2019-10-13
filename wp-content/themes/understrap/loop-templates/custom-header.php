@@ -8,8 +8,9 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
-<article class="feature-img-and-title-container">
-	<?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
+
+<article class="feature-img-and-title-container <?php get_page_temaplate_base(); ?>">
+	<?php the_title( '<h1 class="page-title title-heading">', '</h1>' ); ?>
 	
     <div class="feature-img-container">
         <?php if ( has_post_thumbnail() ) {

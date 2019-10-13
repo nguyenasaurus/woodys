@@ -17,6 +17,7 @@
 
 .title-heading {
     font-family: 'Holtwood One SC', serif;
+    font-size: calc(1rem + 2vw)
 }
 
 .main-heading {
@@ -39,8 +40,19 @@
 
 .body-copy {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
 }
 
 p {
     @extend .body-copy;
+}
+
+h2 {
+    @extend .sub-heading;
+}
+
+h3 {
+    @extend .body-heading;
+    font-style: italic;
 }

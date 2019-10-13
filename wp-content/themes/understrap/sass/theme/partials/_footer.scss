@@ -1,0 +1,29 @@
+.site-footer .site-info p {
+    text-align: center;
+    margin: 1.5rem 0 0 0;
+}
+
+.menu-footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer {
+    margin-left: auto;
+    width: 50%;
+    @extend .sub-heading;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+
+    li {
+        list-style-type: none;
+    }
+    li.menu-item {
+        font-size: 18px;
+        ul li {
+            font-size: 14px;
+            list-style-type: none;
+        }
+    }
+}
