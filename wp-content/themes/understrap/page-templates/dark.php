@@ -32,19 +32,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php the_content(); ?>
+					<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
 
 				<?php endwhile; // end of the loop. ?>
 
 				</main><!-- #main -->
-
-				<article>
-				<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
-
-				<?php endwhile; // end of the loop. ?>
-				</article>
 			</div><!-- #primary -->
 
 		</div><!-- .row end -->

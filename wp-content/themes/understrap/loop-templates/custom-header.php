@@ -17,8 +17,8 @@ defined( 'ABSPATH' ) || exit;
         </div>
     </article>
     <?php else :?>
-        <div class="page-title <?php get_page_temaplate_base() ?>">
-            <h1>
+        <div class="wrapper page-title <?php get_page_temaplate_base() ?>">
+            <h1 class="title-heading">
             <?php the_title() ?>
             </h1>
         </div>
