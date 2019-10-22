@@ -32,7 +32,6 @@
     "browser-sync": "^2.26.7",
     "del": "^4.1.0",
     "font-awesome": "^4.7.0",
-    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-concat": "^2.6.1",
@@ -48,12 +47,14 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-watch": "^5.0.1",
+    "npm": "^6.12.0",
     "run-sequence": "^2.2.1",
     "undescores-for-npm": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "autoprefixer": "^9.5.1",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-postcss": "^8.0.0"
   }

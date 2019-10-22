@@ -29,7 +29,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12 content-area" id="primary">
 
 				<main class="site-main" id="main" role="main">
-					Doot
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
+
+				<?php endwhile; // end of the loop. ?>
 				</main><!-- #main -->
 
 			</div><!-- #primary -->

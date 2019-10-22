@@ -14,10 +14,6 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php if ( is_front_page() ) : ?>
-  <?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
-
 <div class="wrapper light" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
@@ -42,9 +38,29 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<?php endwhile; ?>
 
 				<?php endif; ?>
-					<?php echo do_shortcode( '[lodgix_search_rentals]' )?>
 				</main><!-- #main -->
+				<article class="cta-text-container">
+					<?php if( have_rows('text_block') ) :
+						while( have_rows('text_block') ) : the_row(); 
+						
+						$title = get_sub_field('title');
+						$subtitle = get_sub_field('subtitle');
+						$text = get_sub_field('main_text');
+						?>
 
+						<h3><?php echo($title); ?></h3>
+						<h4><?php echo($subtitle); ?></h4>
+						<p><?php echo($text); ?></p>
+					<?php endwhile; ?>
+					<?php endif; ?>
+				</article>
+
+				<section class="lodgix-search-bar">
+					<h3><?php the_field('cta_for_search'); ?></h3>
+					<?php if ( is_front_page() ) : ?>
+						<?php get_template_part( 'global-templates/hero' ); ?>
+					<?php endif; ?>
+				</section>
 			</div><!-- #primary -->
 
 		</div><!-- .row end -->
